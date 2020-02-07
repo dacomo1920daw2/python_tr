@@ -11,8 +11,8 @@ import math # Mòdul math amb les funcions math.sqrt() i atan
 def tr(a,b):
 	hip=math.sqrt((a**2)+(b**2))
 	ang=math.atan(a/b)*(180.0/math.pi)
-	print "La hipotenusa és: %.2f" % (hip)
-	print "L'angle és: %.2f graus" % (ang)
+	print "La hipotenusa és: %.3f" % (hip)
+	print "L'angle és: %.3f graus" % (ang)
 	return
 #
 # PROGRAMA PRINCIPAL
