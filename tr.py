@@ -13,6 +13,8 @@ def tr(a,b):
 	ang=math.atan(a/b)*(180.0/math.pi)
 	print "La hipotenusa és: %.2f" % (hip)
 	print "L'angle és: %.2f graus" % (ang)
+	area=(a*b)/2
+	print "L'àrea és: %.2f" % (area)
 	return
 #
 # PROGRAMA PRINCIPAL
